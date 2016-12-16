@@ -1,0 +1,117 @@
+body{
+    background-color: #fafbf9;
+    width:920px;
+    height:810px;
+    padding: 10px;
+}
+#header img{
+    display:inline-block;
+    width:150px;
+    margin:0 0 0 10px;
+}
+#header h3{
+    margin:50px 0 0 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#header ul{
+    border: 1px solid black;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+#header ul li{
+    border-right: 1px solid black;
+    display: inline-block;
+    padding:10px 32px;
+}
+
+#content{
+    height: 700px;
+    width:920px;
+    background: radial-gradient(circle, #6c5866, #3a3249);
+}
+
+#content>img{
+    margin:15px 0 0 15px;
+    width:450px;
+    height: 240px;
+    border: 5px solid #c0c0c0;
+}
+
+#about{
+    width: 375px;
+    height: 250px;
+    display:inline-block;
+    margin:15px 0 0 15px;
+    vertical-align: top;
+    background: linear-gradient(#dacbd9,#f3fcfe);
+}
+
+#about h5{
+    margin: 5px 5px 10px;
+
+}
+
+.small{
+    font-size: 12px;
+    margin:10px 5px;
+}
+
+.gray-gradient{
+    background: linear-gradient(#c0c0c0,#868492,#c0c0c0);
+    margin: 0;
+    padding:10px 0 10px 5px;
+}
+
+#db img{
+    width:15px;
+    height:15px;
+    margin-left: 700px;
+}
+
+#db a{
+    text-decoration: none;
+    color: #576f9c;
+    font-size: 12px;
+    padding:0 5px;
+    vertical-align:top;
+}
+
+#columns{
+    margin-left:2px;
+}
+#columns div.col{
+    background: linear-gradient(#6581b5, #fefefe);
+    width:200px;
+    height:390px;
+    border:1px solid #c0c0c0;
+    display:inline-block;
+    margin-left:13px;
+    vertical-align: top;
+}
+
+#columns div.col img{
+    width:200px;
+    height:113px;
+}
+#columns div.col p{
+    position:static;
+}
+#columns div.col{
+    position:relative;
+}
+#columns div.col a{
+    color: #ffffff;
+    border-radius:6px;
+    border:3px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:12px;
+    padding:5px 6px;
+    background-color: #5c729c;
+    box-shadow:0 3px 6px #847d80;
+    position: absolute;
+    bottom: 15px;
+    left: 100px;
+}
